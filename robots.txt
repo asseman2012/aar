@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+# Allow assets so search engines can index images used for projects
+
+Disallow: /.git/
+Disallow: /*.py
+Disallow: /*.sh
+Disallow: /test.html
+
+Sitemap: https://www.aarenovation.fr/sitemap.xml
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
